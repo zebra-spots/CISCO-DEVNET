@@ -1,3 +1,11 @@
+"""
+The following program uses both modules to parse the above JSON data, extract and print data values, and
+output a YAML version of the file. It uses the json library loads() method to parse a string into which the file
+has been read. It then uses normal Python data references to extract values from the resulting Python data
+structure. Finally, it uses the yaml library dump() function to serialize the Python data back out as YAML, to
+the terminal.
+"""
+
 # Import the json and yaml libraries
 import json
 import yaml
