@@ -1,4 +1,3 @@
-# Fill the Python code in this file
 import unittest
 
 from recursive_json_search import *
